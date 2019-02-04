@@ -1,0 +1,71 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: Georgia, Arial, Helvetica, Sans-serif;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {font-size: 14pt;}
+/*css for logo and name of the page*/
+/*---------------------------------*/
+.newIdWelcome p {
+	margin: -75px 0 -20px 350px;
+	font-size: 30pt;
+}
+h2 {
+	font-size: 16pt;
+	padding-bottom: 5px;
+}
+
+/*css for form */
+/*-------------*/
+.newIdForm {
+	text-align: right;
+	width: 150px;
+	height: 13px;
+	padding: 3px 10px 0 0;
+	margin: 3px 0 15px 0;
+	float: left;	
+
+}
+.milberLogoONregistration {
+    margin: 0 auto;
+}
+
+
+.newIdBlock {margin: 0 0 0 450px; background-color: red;}
+.newIdBlock input[type="text"], .newIdBlock input[type="password"], .newIdBlock input[type="radio"]{border-radius: 4px;margin: 0 0 15px 10px;background: #fff;padding: 1px 0 1px 4px;font-size: 9pt;border: 1px solid #a9a9a9;-webkit-box-shadow: 0px 0px 4px #ffffff;-mox-box-shadow: 0px 0px 4px #ffffff;box-shadow: 0px 0px 4px #ffffff;}
+.genderLook {margin: -10px 0 -10px 0;}
+.newIdBlock input[type="text"]:focus, .newIdBlock input[type="password"]:focus{outline-color: 0;outline: none;-webkit-box-shadow: 0px 0px 4px #49ef74;-mox-box-shadow: 0px 0px 4px #49ef74;box-shadow: 0px 0px 4px #49ef74;}
+.creatIdBlock input[type="submit"]{color: #ffffff;border: 1px solid #50a867;border-radius: 4px;font-size: 13pt;background: #50a867;margin: 80px 570px 0 350px;}
+.newIdText1, .newIdText2 {padding: 10px 0 5px 0;font-size: 12pt;margin: 40px 600px 0 0;}
+div.selection select{margin: 0 0 20px 17px;}
+form {font-size: 12pt;}
+#submitNewId {color: #ffffff;border: 1px solid #50a867;border-radius: 4px;font-size: 11pt;background: #50a867;padding: 2px 2px;margin: -30px 0 30px 220px;}
+.newIdSliderBlock {color: #47864D;font-weight: bold;width: 420px;margin-left: 43%;}
+.newIdSlider {width: 200px;}
+.errorStyle2 {color: #f00; margin: -14px 0 0 172px;}
+.errorStyle2 {color: #f00;margin: -14px 0 0 172px;}
+.emailExist {color: #ff0000;margin: 0;}
+
+.CopyRight {
+    text-align: left;
+    margin: 0 0 -40px 0;
+}
+.CopyRight, .CopyRight > a{
+    text-decoration: none;
+    color: #777;
+    font-size: 9pt;
+}

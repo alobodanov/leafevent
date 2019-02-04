@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="images/icon16x16.jpg" type="image/jpg">
+    <title class="WelcomeMilber">Milber - log in</title>
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+</head>
+<body>
+    <div class="BodyTag">
+        <br />
+        <img src="images/100x100.jpg" alt="logo"/>
+        <div class="name">
+            <p>Milber</p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="log">
+            <p>Log in</p>
+        </div>
+        <br />
+        <div class="input">
+            <form class="form">
+                <div class="userEmail">
+                    <p>Email  <input type="text" class="userEmail" method="POST" name="userEmail" required size="35" /></p>
+                </div>
+                <br />
+                <div class="pass">
+                    <p>Password  <input type="password" class="userPassword" method="POST" name="password" size="35" required /></p>
+                </div>
+                <br />
+                <div class="forgotPass" name="forgotPass">
+                    <p><a href="#">Forgot your password?</a></p>
+                </div>
+                <input type="submit" class="login" name="logIn" value="Log in" />
+            </form>
+            <div class="video">
+                <figure>
+                    <video controls="controls">
+                        <source src="Video/IMG_0817.MOV" type="video/mov" />
+                        <source src="Video/IMG_0817.webm" type="video/webm" />
+                        <source src="Video/IMG_0817.mp4" type="video/mp4" />
+                    </video>
+                </figure>
+                <div class="maplogo">
+                    <img src="images/maplogo.jpg" alt="maplogo"/>
+                </div>
+                <div class="mapExpo">
+                    <p> This paragraph will contain small explanation about the map and what it does.</p>
+                </div>
+                <div class="nightlogo">
+                  <img src="images/nightlogo.jpg" alt="nightlogo"/>
+                </div>
+                <div class="nightExpo">
+                    <p> This paragraph will contain small explanation about the night vision.</p>
+                </div>
+            </div>
+        </div>
+        <div class="newUser">
+          <p>If you are new to Milber, you can <a href="newID.html">creat Milber account.</a></p>
+        </div>
+
+       <?php require "milberfooterend.php"; ?>
+
+

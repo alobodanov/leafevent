@@ -1,0 +1,87 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /*font-family: 'Alice', serif;*/
+    /*font-family: 'EB Garamond', serif;*/
+    /*font-family: 'Crimson Text', serif;*/
+    font-family: 'Hind', sans-serif;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.confirmE, .aList {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: 0 5px 0 5px;
+    font-size: 9pt;
+}
+
+.confirmE td {
+    text-align: center;
+    padding: 0;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.aList td {
+    text-align: center;
+    padding: 3px;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 10pt;
+}
+
+
+a {
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 3px;
+    background-color: #eee;
+    margin: 0 0 0 5px;
+    padding: 3px;
+}
+
+.confirmE tr:nth-child(even) {
+    background: #ddd;
+}
+.confirmE tr:nth-child(odd) {
+    background: none;
+}
+
+.aList tr:nth-child(even) {
+    background: #ddd;
+}
+.aList tr:nth-child(odd) {
+    background: none;
+}
+
+
+.confirmE th {
+  
+    background: #bbddff;
+    padding:  3px 3px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+}
+
+.aList th {
+    
+    background: #bbddff;
+    padding:  3px 3px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+}
+

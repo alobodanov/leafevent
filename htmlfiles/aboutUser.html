@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title class="WelcomeMilber">Milber</title>
+
+	<?php require "milbertoolbar.php" ?>
+
+
+
+		
+		<div class="MainContent">
+			<aside id="sideNav">
+				<div class="userPhoto">
+					<img src="images/IMG_5678.jpg" alt="photo" />
+				</div>
+				<div class="navTools">
+					<ul>
+						<li class="enent_btn"><a href="userLookMain.html">Events</a></li>
+						<li class="about_btn"><a href="aboutUser.html">About</a></li>
+						<li class="photos_btn"><a href="#">Photos</a></li>
+						<li class="friend_btn"><a href="#">Friends</a></li>
+					</ul>
+				</div>
+					<div class="sponsors">
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						.<br />
+						<div class="milberRights">
+							<script>
+                    			var curentDate = new Date();
+                    			var years = curentDate.getFullYear();
+                    			document.write('<p>Milber © ' + years + '</p>');  
+                			</script>
+                		</div>
+					</div>
+			</aside>
+			<aside id="rightTools">
+				<hr />
+				<script> 
+					function toggleNavPanel(x){ 
+						var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH="392px"; 
+							if(panel.style.height == maxH){
+	 							panel.style.height = "0px";  
+							} else { 
+								panel.style.height = maxH; 
+							} 
+						} 
+				</script> 
+				<div id="sections_btn_holder"> 
+					<p onclick="toggleNavPanel('MAP')">Event(s) you have attended</p>
+				</div> 
+					<div id="MAP">
+						<div>
+							hello
+
+						</div>
+					</div>
+					<br />
+					<br />
+					<br />
+					<br />
+					<hr />
+			</aside>
+
+
+
+
+	    </div>
+	</div>
+</body>
+</html>

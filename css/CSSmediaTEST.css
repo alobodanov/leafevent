@@ -1,0 +1,408 @@
+/* iPhone 4 - (portrait) ---------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .BodyTagIndex {
+        width: 200%;
+    }
+
+    #bg {
+      position: absolute; 
+      z-index: -1;
+      width: 100vw;
+    }
+
+    .flash-images {
+        width: 100%;
+        height: 60vw;
+        overflow: hidden;
+        position:relative;
+    }
+    .logInForm {
+        text-align: right;
+        margin: -50px 10px 0 400px;
+    }
+    .logInForm > input[type="password"]{
+        margin: 10px 0 0 0;
+    }
+    .BodyTagIndex > .middle-box-start {
+        width: 200%;
+        padding: auto;
+        position: absolute;
+        top: 20vw;
+    }
+
+    img.indexPhoto {
+        position:absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        /*margin:auto;*/
+        max-width:150%;
+        max-height:150%;
+        text-align:bottom;
+        display:block;
+    }
+    .BodyTagIndex > .index-form-search-result-div {
+        width: 200%;
+        top: 67vw;
+    }
+    .look-event-main-page {
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+    .look-event-main-page > input {
+        width: 50vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+
+    .look-event-main-page > select {
+        width: 40pvw;
+        height: 29px;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+    .look-event-main-page > input[type="submit"]{
+        width: 30vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #50a867;
+        border-radius: 3px;
+        background-color: #50a867;
+        color: #fff;
+    }
+    .events_to_display > a.indexevent > .view-all-events-index-pag {
+        display: inline-block;
+        width: 430px;
+        height: 400px;
+        background-color: #ddd;
+        text-align: center;
+        color: #000;
+        margin: 10px;
+
+    }
+}
+/* iPhone 4 - (landscape) ---------- */
+@media only screen and (max-width: 480px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+.BodyTagIndex {
+        width: 200%;
+    }
+
+    #bg {
+      position: absolute; 
+      z-index: -1;
+      width: 100vw;
+    }
+
+    .flash-images {
+        width: 100%;
+        height: 40vw;
+        overflow: hidden;
+        position:relative;
+    }
+    .logInForm {
+        text-align: right;
+        margin: -50px 10px 0 400px;
+    }
+    .logInForm > input[type="password"]{
+        margin: 10px 0 0 0;
+    }
+    .BodyTagIndex > .middle-box-start {
+        width: 100%;
+        padding: auto;
+        position: relative;
+        top: 10vw;
+    }
+
+    img.indexPhoto {
+        position:absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        /*margin:auto;*/
+        max-width:150%;
+        max-height:150%;
+        text-align:bottom;
+        display:block;
+    }
+    .BodyTagIndex > .index-form-search-result-div {
+        width: 200%;
+        top: 42vw;
+    }
+    .look-event-main-page {
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+    .look-event-main-page > input {
+        width: 50vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+
+    .look-event-main-page > select {
+        width: 40pvw;
+        height: 29px;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+    .look-event-main-page > input[type="submit"]{
+        width: 30vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #50a867;
+        border-radius: 3px;
+        background-color: #50a867;
+        color: #fff;
+    }
+}
+
+/*iPhone 6 Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
+    .BodyTagIndex {
+        width: 100%;
+    }
+    #bg {
+      position: absolute; 
+      z-index: -1;
+      width: 100vw;
+    }
+
+    .flash-images {
+        width: 100%;
+        height: 60vw;
+        overflow: hidden;
+        position:relative;
+    }
+    .logInForm {
+        text-align: right;
+        margin: -50px 10px 0 400px;
+    }
+    .logInForm > input[type="password"]{
+        margin: 10px 0 0 0;
+    }
+    .BodyTagIndex > .middle-box-start {
+        width: 200%;
+        padding: auto;
+        position: absolute;
+        top: 20vw;
+    }
+
+    img.indexPhoto {
+        position:absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        max-width:150%;
+        max-height:150%;
+        text-align:bottom;
+        display:block;
+    }
+    .BodyTagIndex > .index-form-search-result-div {
+        width: 200%;
+        top: 67vw;
+    }
+    .look-event-main-page {
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+    .look-event-main-page > input {
+        width: 50vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+
+    .look-event-main-page > select {
+        width: 40pvw;
+        height: 29px;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+    .look-event-main-page > input[type="submit"]{
+        width: 30vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #50a867;
+        border-radius: 3px;
+        background-color: #50a867;
+        color: #fff;
+    }
+    .events_to_display > a.indexevent > .view-all-events-index-pag {
+        display: inline-block;
+        width: 430px;
+        height: 400px;
+        background-color: #ddd;
+        text-align: center;
+        color: #000;
+        margin: 10px;
+    }
+}
+/* iPhoen 6 Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+ .BodyTagIndex {
+        width: 100%;
+    }
+    #bg {
+      position: absolute; 
+      z-index: -1;
+      width: 100vw;
+    }
+
+    .flash-images {
+        width: 100%;
+        height: 60vw;
+        overflow: hidden;
+        position:relative;
+    }
+    .logInForm {
+        text-align: right;
+        margin: -50px 10px 0 400px;
+    }
+    .logInForm > input[type="password"]{
+        margin: 10px 0 0 0;
+    }
+    .BodyTagIndex > .middle-box-start {
+        width: 200%;
+        padding: auto;
+        position: absolute;
+        top: 20vw;
+    }
+    img.indexPhoto {
+        position:absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        max-width:150%;
+        max-height:150%;
+        text-align:bottom;
+        display:block;
+    }
+    .BodyTagIndex > .index-form-search-result-div {
+        width: 200%;
+        top: 67vw;
+    }
+    .look-event-main-page {
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+    .look-event-main-page > input {
+        width: 50vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+    .look-event-main-page > select {
+        width: 40pvw;
+        height: 29px;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+    .look-event-main-page > input[type="submit"]{
+        width: 30vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #50a867;
+        border-radius: 3px;
+        background-color: #50a867;
+        color: #fff;
+    }
+    .events_to_display > a.indexevent > .view-all-events-index-pag {
+        display: inline-block;
+        width: 430px;
+        height: 400px;
+        background-color: #ddd;
+        text-align: center;
+        color: #000;
+        margin: 10px;
+    }
+}
+/* iPad 1-2 Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+/* iPad 1-2 Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .BodyTagIndex {
+        width: 100%;
+    }
+
+    #bg {
+      position: absolute; 
+      z-index: -1;
+      width: 100vw;
+    }
+
+    .flash-images {
+        background-color: red;
+        width: 100%;
+        height: 60vw;
+        overflow: hidden;
+        position:relative;
+    }
+    .logInForm {
+        text-align: right;
+        margin: -50px 10px 0 400px;
+    }
+    .logInForm > input[type="password"]{
+        margin: 10px 0 0 0;
+    }
+    .BodyTagIndex > .middle-box-start {
+        width: 100%;
+        padding: auto;
+        position: absolute;
+        top: 20vw;
+    }
+
+    img.indexPhoto {
+        position:absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        /*margin:auto;*/
+        max-width:100%;
+        max-height:100%;
+        text-align:bottom;
+        display:block;
+    }
+    .BodyTagIndex > .index-form-search-result-div {
+        width: 100%;
+        top: 67vw;
+    }
+    .look-event-main-page {
+        text-align: center;
+        width: 100vw;
+        position: relative;
+    }
+    .look-event-main-page > input {
+        width: 50vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+
+    .look-event-main-page > select {
+        width: 40pvw;
+        height: 29px;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+    .look-event-main-page > input[type="submit"]{
+        width: 30vw;
+        padding: 6px;
+        font-size: 10pt;
+        border: 1px solid #50a867;
+        border-radius: 3px;
+        background-color: #50a867;
+        color: #fff;
+    }
+}

@@ -1,0 +1,2375 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /*font-family: 'Alice', serif;*/
+    /*font-family: 'EB Garamond', serif;*/
+    /*font-family: 'Crimson Text', serif;*/
+    font-family: 'Hind', sans-serif;
+    vertical-align: baseline;
+    background: transparent;
+}
+/* Index Page, where the user can Log in into thier account*/
+.BodyTagIndex {
+    margin: 0 auto; 
+    height: 100%;
+}
+.BodyTag {
+    margin: auto; 
+    width: 1250px; 
+    height: 100%;
+}
+
+.foot{
+   /*position:absolute;*/
+   bottom: 0;
+   width: 100%;
+   background: #429552;
+   padding: 5px 0 0 0;
+   margin: 50px 0 0 0;
+}
+.foot li {
+    padding: 0 5px 0 0; 
+    font-size: 10pt;
+    display: inline-block;
+}
+.foot a {
+    text-decoration: none;
+    color: #ccc; 
+    font-size: 11pt; 
+    padding: 0 0 0 5px;
+}
+
+.foot p {
+    color: #ccc;
+    padding: 0 0 0 5px;
+}
+
+.foot2 {
+    margin: 275px 0 0 0;
+    width: 100%;
+   height: 60px;
+   background: #429552;
+}
+.foot2 li {
+    padding: 0 5px 0 0; 
+    font-size: 10pt;
+    display: inline-block;
+}
+.foot2 a {
+    text-decoration: none;
+    color: #ccc; 
+    font-size: 11pt; 
+    padding: 0 0 0 5px;
+}
+
+.milberLogoIndePage {
+    margin: 8px 0 0 20px;3
+}
+
+
+.logInForm {
+    text-align: right;
+    margin: -30px 10px 0 0;
+}
+
+.logInForm > .formInputs > input {
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    padding: 5px;
+}
+.logInForm > .formInputs > input[type="submit"] {
+    width: 100px;
+    border-radius: 3px;
+    border: 1px solid #50a867;
+    padding: 5px;
+}
+
+.formInputs > a {
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    font-size: 12pt;
+    color: #aaa;
+}
+.formInputs > a:hover {
+    color: #888;
+}
+
+
+
+#bg {
+  position: absolute; 
+  z-index: -1;
+}
+
+.flash-images {
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    position:relative;
+}
+
+img.indexPhoto {
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    /*margin:auto;*/
+    max-width:100%;
+    max-height:100%;
+    text-align:bottom;
+    display:block;
+}
+input.login {
+    color: #ffffff;
+    border: 1px solid #50a867;
+    border-radius: 4px;
+    font-size: 10pt;
+    background: #50a867;
+    margin: -50px 0 0 10px;
+    cursor: pointer;
+}
+.BodyTagIndex > .middle-box-start {
+    width: 100%;
+    padding: auto;
+    position: absolute;
+    top: 10vw;
+}
+
+.BodyTagIndex > .logInForm > .formInputs > .maybe-new-user {
+    color: #ea3017;
+    cursor: pointer;
+    margin: 0 120px -18px 0;
+}
+.BodyTagIndex > .logInForm > .formInputs > span {
+    margin: 20px 0 0 -350px;
+    width: 350px;
+    text-align: center;
+    position: fixed;
+}
+
+.BodyTagIndex > .logInForm > .formInputs > span.box-for-forgoton-user > input[type="text"] {
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    padding: 5px;
+}
+.BodyTagIndex > .logInForm > .formInputs > span.box-for-forgoton-user > input[type="submit"]{
+    color: #ffffff;
+    border: 1px solid #e2861a;
+    border-radius: 3px;
+    font-size: 8pt;
+    padding: 3px 6px;
+    background: #e2861a;
+}
+.middle-box-start > .middle-mox-register {
+    width: 500px;
+    z-index: 2;
+    margin: auto;
+    position: relative;
+}
+.middle-mox-register > p {
+    text-align: center;
+    font-size: 20pt;
+    color: #fff;
+}
+.middle-mox-register > p > span {
+    font-size: 10pt;
+}
+.middle-mox-register > a {
+    background-color: #50a867;
+    margin: 0 0 0 200px;
+    padding: 7px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.BodyTagIndex > .index-form-search-result-div {
+    width: 100%;
+    padding: auto;
+    position: absolute;
+    top: 37vw;
+}
+.look-event-main-page {
+    text-align: center;
+
+    
+}
+.look-event-main-page > input {
+    width: 300px;
+    padding: 6px;
+    font-size: 10pt;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.look-event-main-page > select {
+    width: 200px;
+    height: 29px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.look-event-main-page > input[type="submit"]{
+    width: 100px;
+    padding: 6px;
+    font-size: 10pt;
+    border: 1px solid #50a867;
+    border-radius: 3px;
+    background-color: #50a867;
+    color: #fff;
+}
+
+.events_to_display > div{
+    display: table;
+    margin: 15px 0 0 30px;
+    text-align: center;
+    max-width: 100%;
+}
+.events_to_display > a.indexevent {
+    text-decoration: none;
+    color: #fff;
+}
+.events_to_display > a.indexevent > .view-all-events-index-pag {
+    display: inline-block;
+    width: 330px;
+    height: 250px;
+    text-align: center;
+    color: #000;
+    margin: 10px;
+
+}
+.events_to_display > a.indexevent > .view-all-events-index-pag:hover {
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+.index-form-search-result-div > .events_to_display > a.indexevent > .view-all-events-index-pag > div {
+    width: 330px;
+    height: 195px;
+    border-radius: 5px;
+    overflow: hidden;
+    position:relative;
+    margin: auto;
+
+}
+.index-form-search-result-div > .events_to_display > a.indexevent > .view-all-events-index-pag > div > img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width:150%;
+    max-height:150%;
+    text-align:center;
+    display:block;
+}
+
+.index-form-search-result-div > .events_to_display > .error-msg-for-search-index {
+    margin: 0 auto;
+    color: #ea3017;
+    font-size: 12pt;
+}
+
+
+
+/*Registration css page*/
+/*---------------------*/
+
+.registration {
+    margin: auto; 
+    width: 850px; 
+    height: 100%;
+}
+
+.registration > img.milberLogoONregistration {
+    margin: 0 0 0 310px;
+}
+
+.registration > p {
+    text-align: center;
+    font-size: 11pt;
+    color: #666;
+}
+
+.registration > p > a {
+    text-decoration: none;
+}
+
+.registrationform {
+    margin: 30px 0 0 0;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.registrationform > form{
+    margin: 0 200px;
+    padding: 10px;
+}
+
+.registrationform > form.newIdBlock > input[type="text"], .registrationform > form.newIdBlock > input[type="password"]{
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.registrationform > form.newIdBlock > input[type="text"]:focus, .registrationform > form.newIdBlock > input[type="password"]:focus {
+    outline: none;
+    -webkit-box-shadow: 0px 0px 4px #49ef74;
+    -mox-box-shadow: 0px 0px 4px #49ef74;
+    box-shadow: 0px 0px 4px #49ef74;
+}
+
+.registrationform > .newIdBlock > #bdayDiv {
+    margin: 0 0 0 10px;
+}
+.registrationform > .newIdBlock > #bdayDiv > .selection {
+    margin: -18px 0 0 80px;
+}
+.registrationform > .newIdBlock > #bdayDiv > .selection select:focus {
+    outline: none;
+    -webkit-box-shadow: 0px 0px 4px #49ef74;
+    -mox-box-shadow: 0px 0px 4px #49ef74;
+    box-shadow: 0px 0px 4px #49ef74;
+}
+
+.registrationform > form.newIdBlock > .genderLook {
+   text-align: center;
+}
+.registrationform > form.newIdBlock > .creatIdForm {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.errorStyle2 {
+    color: #f94533;
+}
+
+#why {
+    margin: 0 0 0 10px;
+    font-size: 10pt;
+    color: #2390ec;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*CSS FOR indexEvent.php*/
+/*----------------------*/
+
+.BodyTagIndex > .index-event-box {
+    width: 95%;
+    margin: auto;
+    padding: 0 auto;
+}
+.BodyTagIndex > .index-event-box > .index-event-name {
+    font-size: 25pt;
+    margin: 0 0 10px 0;
+}
+
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-other-content {
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: 40%;
+}
+
+.BodyTagIndex > .index-event-box > div.index-desc-pic > div {
+    width: 55%;
+    height: 370px;
+    overflow: hidden;
+    position:relative;
+    float: right;
+}
+
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-other-content > .index-event-address {
+    font-size: 16pt;
+    margin: 10px 0 10px 60px;
+}
+
+
+.BodyTagIndex > .index-event-box > div.index-desc-pic > div > .view-index-event-pic {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+    text-align:center;
+    display:block;
+}
+
+.BodyTagIndex > .index-event-box > div.index-desc-pic > .index-event-desc{
+    display: inline-block;
+    height: 367px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    width: 40%;
+    margin: 0 10px 0 0;
+    overflow: scroll;
+}
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-other-content {
+    display: inline-block;
+}
+
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-togo > p{
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid #50a867;
+    padding: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #50a867;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-togo > .indexevent-form-register {
+    text-align: center;
+}
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-togo > .indexevent-form-register > p{
+    position: absolute;
+    text-align: center;
+    position: relative;
+    font-size: 12pt;
+}
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-togo > .indexevent-form-register > input[type="text"]{
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    padding: 5px;
+}
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-togo > .indexevent-form-register > input[type="password"]{
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    padding: 5px;
+}
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-togo > .indexevent-form-register > input[type="submit"]{
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid #50a867;
+    padding: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #50a867;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.BodyTagIndex > .index-event-box > .index-content-plus-registration > .index-event-togo {
+    float: right;
+    width: 55%;
+    position: relative;
+    margin: 0;
+}
+
+/* css for green bar and for it's content  */
+/* ----------------------------------------*/
+#mainBODYLook {
+    background-color: #000;
+}
+#header {
+    width: 100%; 
+    height: auto; 
+    background-color: #0c4e01;
+    padding: 13px 0 0 0; 
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+}
+#headerContent {
+    margin: auto; 
+    width: 1250px; 
+    height: 100%;
+}
+
+.onenav > li {
+    display: inline;
+}
+.onenav > li.userPhotoClass {
+    margin: -28px 0 -25px 770px;
+    position: relative;
+}
+.onenav > li.dropMenu {
+    margin: 2px 300px 0 810px;
+}
+
+.onenav > li > a.homeButton > img{
+    margin: -10px 0 0 15px;
+    /*width: 30px;
+    height: 30px;*/
+    border-radius: 10%;
+}
+
+.onenav > li.userPhotoClass > div{
+    width: 25px;
+    height: 25px;
+    /*margin: -28px 0 -25px 770px;*/
+    border-radius: 100%;
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%; 
+    -ms-border-radius: 100%; 
+    -o-border-radius: 100%; 
+    overflow: hidden;
+    position:relative;
+}
+
+.onenav > li.userPhotoClass > div > a > img#userPhoto {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width:135%;
+    max-height:100%;
+    text-align:center;
+    display:block;
+}
+.onenav > li {
+    display: block;
+}
+
+.onenav > li > div > img#userPhoto:hover {
+    cursor: pointer;
+}
+
+
+.onenav > li > form {
+    margin: -36px 140px -29px 80px;
+}
+.onenav > li > form > input[type="text"] {
+    border-radius: 3px;
+    font-size: 10pt;
+    outline: none;
+    padding: 4px 6px 4px 25px; 
+    width: 350px; 
+    background: #000 url(../Images/loop2.png) no-repeat;
+    background-position: center left;
+    background-color: #fff;
+    border: 1px solid #429552;
+    /*box-shadow: 0 2px 4px rgba(0,0,0,0.80) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+    transition: all 0.2s linear;*/
+}
+
+
+.onenav > li > form > a {
+    text-decoration: none;
+    outline: none;
+    color: #429552;
+    margin: 0 0 0 8px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 10pt;
+    border: none;
+    background-color: #f0f0f0;
+}
+.onenav > li > form > a:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: #429552;
+    color: #fff;
+}
+
+.onenav > li > ul.navTools {
+  display:none;
+  position: absolute;
+  top: 100%;
+  -webkit-transition-property: width;
+  -moz-transition-property: width;
+  transition-property: width;
+  -webkit-transition: .4s ease-in-out;
+  -mox-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  /*margin: 0 0 0 760px;*/
+  /*top: 30px;*/
+  background-color: #0c4e01;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+    
+    
+}
+.onenav > li > ul.navTools > a > li {
+    list-style-type: none;
+    text-align: left;
+    padding: 3px 0 0 30px;
+    text-decoration: none;
+    margin: 3px 0;
+    height: 21px;
+    width: 150px;
+    display: block;
+
+}
+
+.onenav > li > ul.navTools a > li:hover {
+    background-color: #c0c0c0;
+    color: #000;
+
+}
+.onenav > li > ul.navTools > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10pt;
+    text-align: center;
+    vertical-align: middle;
+
+}
+/*.onenav > li:hover ul.navTools {
+    visibility: visible;
+    -webkit-transition: .2s ease-in-out;
+    -mox-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    -webkit-transition-property: .5s width;
+    -moz-transition-property: .5s width;
+    transition-property: .5s width;
+    -webkit-transition-timing-function: .2s ease-in-out;
+    transition-timing-function: .2s ease-in-out;
+    transition-timing-function: .2s ease-in-out;
+    margin: 7px 0 0 760px;
+    /*padding: 10px 0;
+    text-decoration: none;
+    background-color: #429552;
+
+}*/
+
+.onenav > li.reminder-menu {
+    float: right;
+    position: relative;
+}
+
+
+.onenav > li > .worningLogo > img {
+    height: 30px;
+    width: 30px;
+    margin: -20px 0 0 0;
+    cursor: pointer;
+}
+
+
+.onenav > li > ul.Worning{
+  display:none;
+  position: absolute;
+  top: 100%;
+  left: -1300%;
+  -webkit-transition-property: width;
+  -moz-transition-property: width;
+  transition-property: width;
+  -webkit-transition: .4s ease-in-out;
+  -mox-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  /*top: 30px;*/
+  background-color: #fcfbfb;
+  border: 1px solid #eee;
+  border-radius: 3px;
+
+}
+
+
+
+
+
+
+.onenav > li > .newEventX > a {
+    text-decoration: none;
+    color: #fff;
+}
+.onenav > li > .newEventX > a:hover {
+    text-decoration: none;
+    color: #00a550;
+}
+
+.onenav > li > .userName {
+    /*margin: 2px 300px 0 810px;*/
+    font-size: 12pt;
+    padding: 0 5px;
+    color: #fff; 
+    position: relative;
+}
+
+.onenav > li > .userName:hover {
+    color: #429552;
+    cursor: pointer;
+}
+
+.onenav > li > .newEventX {
+    margin: -25px 0 -19px 1050px;
+    position: relative;
+}
+
+.content {
+    margin: 55px 0 0 0;
+    border: 0 solid #727271;
+    max-width: 765px;
+    height: 480px;
+}
+
+.MainContent{
+    margin: -54px 0 0 0;
+    width: 1250px;
+}
+
+#Whan_to_say {
+    padding: 0 0 5px 5px;
+    margin: 50px 0 0 0;
+    font-size: 10pt;
+    resize: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 70px;
+    width: 550px;
+}
+
+/* How will the POST on the home page will looks like */
+/*----------------------------------------------------*/
+.wanttoPostanEvent {
+    margin: 0 560px -55px 0;
+    padding: 10px 0;
+}
+
+.wanttoPostanEvent > .col-lg-6 {
+    margin: 0 0 5px 0;
+
+}
+
+
+.wanttoPostanEvent > .col-lg-6 > form > div.testareaAndSubmit > div {
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%; 
+    -ms-border-radius: 100%; 
+    -o-border-radius: 100%; 
+    overflow: hidden;
+    position:relative;
+
+}
+.wanttoPostanEvent > .col-lg-6 > form > div.testareaAndSubmit > div > a > img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width:135%;
+    max-height:100%;
+    text-align:center;
+    display:block;
+    
+}
+
+.wanttoPostanEvent > .col-lg-6 > form > div.testareaAndSubmit > textarea {
+    font-size: 11pt;
+    padding: 8px;
+    margin: -43px 0 0 70px;
+    width: 400px;
+    resize: none;
+    border: 1px solid #727271;
+    border-radius: 2px;
+    overflow:hidden;
+}
+
+.wanttoPostanEvent > .col-lg-6 > form > div.testareaAndSubmit > input[type="button"]{
+    color: #50a867;
+    background-color: transparent;
+    border: 1px solid #50a867 ;
+    font-size: 11pt;
+    border-radius: 3px;
+    padding: 3px 15px;
+    margin: 0 0 0 70px;
+}
+.wanttoPostanEvent > .col-lg-6 > form > div.testareaAndSubmit > input[type="button"]:hover{
+    background-color: #2658d7;
+    color: #fff;
+}
+
+.wanttoPostanEvent > .col-lg-6 > form > div > #eventPosts {
+    font-size: 12pt;
+    padding: 5px;
+    height: 74px;
+    width: 569px;
+    resize: none;
+    border: 1px solid #727271;
+    border-radius: 2px;
+}
+
+.allPosts > div > .row > .col-md-6 > form > .input-group{
+    margin: -20px 0 -10px 50px;
+    background-color: #222;
+    width: 580px;
+    padding: 10px;
+}
+
+.allPosts > div > .row > .col-md-6 > form > .input-group > textarea{
+    outline: none;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    width: 570px;
+    resize: none;
+}
+.allPosts > div > .row > .col-md-6 > form > .input-group > .input-group-btn > button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.allPosts > div > .row > .col-md-6 > .friendsComments:nth-child(even) {
+    margin: 0 0 0 50px;
+}
+
+.table-striped {
+    margin: 10px 0 0 0;
+    background-color: #222;
+    width: 600px;
+}
+
+.table-striped > tbody > tr > td{
+    margin: 0 0 10px 0;
+    padding: 0 0 0 10px;
+    width: 100%;  
+}
+
+.table-striped > tbody > tr > td > .userNameDate {
+    padding: 3px;
+}
+
+.table-striped > tbody > tr > td > .userNameDate > .userPoster{
+    color: #5f94ea;
+    margin: 0 10px 0 0;
+}
+.table-striped > tbody > tr > td > .userCommentBody {
+    font-size: 10pt;
+    margin: 0 0 0 15px;
+    color: #ddd;
+}
+.table-striped > tbody > tr > td > .userNameDate > .userCommentDate {
+    font-size: 9pt;
+    color: #ddd;
+}
+
+#map {
+    width: 840px; 
+    height: 471px;
+    z-index: 0;
+}
+
+#test
+{
+   background:#000 url(../images/logoPNG.png) no-repeat center center;
+   height: 100px;
+   width: 100px;
+   position: relative;
+   z-index: 1000;
+   left: 50%;
+   top: 50%;
+   margin: -555px 0 0 -25px;
+}
+
+
+/*CSS for event content list on the right side*/
+/*--------------------------------------------*/
+a.link-to-search-more {
+    text-decoration: none;
+    color: #2e9538;
+}
+a > p.search-for-all-events {
+    margin: 50px 0 0 840px;
+    text-align: center;
+    font-size: 10pt;
+}
+.contentInfo {
+    background-color: #222;
+    margin: -480px 0 0 840px;
+    width: 407px;
+    height: 471px;
+    overflow: scroll;
+}
+.contentInfo > a {
+    text-decoration: none;
+}
+.contentInfo > a > .eventDescOnSide {
+    padding: 5px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.contentInfo > a > .eventDescOnSide > div {
+    width: 60px;
+    height: 50px;
+    overflow: hidden;
+    position:relative;
+    margin: 0 0 -50px 0;
+}
+.contentInfo > a > .eventDescOnSide > div > img.eventPictureOnSide {
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+    text-align:center;
+    display:block;
+}
+
+.contentInfo > a > .eventDescOnSide > .eventName {
+    margin: 0 0 0 70px;
+    font-size: 13pt;
+    color: #429552;
+}
+.contentInfo > a > .eventDescOnSide > .eventType {
+    margin: 0 0 -5px 20px;
+    font-size: 11pt;
+    color: #777;
+
+}
+.contentInfo > a > .eventDescOnSide > .eventStartEndDate {
+    margin: -5px 0 0 70px;
+    font-size: 10pt;
+    width: 260px;
+    height: 20px;
+    color: #000;
+}
+.contentInfo > a > .eventDescOnSide > .madeBy {
+    font-size: 10pt;
+    margin: 0 0 -25px 70px;
+    color: #000;
+}
+
+.contentInfo > p.user-has-no-selection-no-events {
+    text-align: center;
+    font-size: 11pt;
+    margin: 100px 0 0 0;
+}
+
+/*How will the post look like on the home page*/
+/*--------------------------------------------*/
+.viewAllFriendPost {
+    margin: 80px 0 0 0;
+}
+.viewAllFriendPost > .allPosts {
+    margin: 0 0 0 10px;
+}
+
+.viewAllFriendPost > .allPosts > div {
+    width: 570px;
+    margin: 25px 0 10px 70px;
+    padding: 0;
+}
+
+.viewAllFriendPost > .allPosts > .panel-body > div > div:nth-child(even){
+    /*background: red;*/
+    border-radius: 3px;
+}
+.viewAllFriendPost > .allPosts > .panel-body > div > div:nth-child(odd){
+    border-radius: 3px;
+    /*background: red;*/
+
+}
+
+.viewAllFriendPost > .allPosts > .panel-heading > div > img{
+    top:0;
+    bottom:0;
+    margin: auto;
+    max-width:137%;
+    max-height:137%;
+}
+
+.viewAllFriendPost > .allPosts > .panel-heading > div.picDisplay {
+    height: 45px;
+    width: 45px;
+    margin: 0 0 -27px 5px;
+    border-radius: 100%;
+    /*border: 2px solid #22973b;*/
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%; 
+    -ms-border-radius: 100%; 
+    -o-border-radius: 100%; 
+    overflow: hidden;
+    position:relative;
+}
+
+.viewAllFriendPost > .allPosts > .panel-heading > .userPostDate {
+    background-color: #0c4e01;
+}
+
+.viewAllFriendPost > .allPosts > .panel-heading > .userPostDate > blockquote {
+    color: #fff;
+    font-size: 10pt; 
+    margin: -20px 0 -25px 0;
+    padding: 5px 0 5px 65px;
+}
+
+.viewAllFriendPost > .allPosts > .panel-heading > .userPostDate > blockquote > span{
+    margin: 0 0 0 10px;
+    font-size: 10pt;
+    color: #c7e1cc;
+}
+
+.viewAllFriendPost > .allPosts > .panel-body > .row > .col-lg-6 > blockquote {
+    width: 500px;
+    margin: -5px 0 5px 0;
+    font-size: 10pt;
+    color: #fff;
+    padding: 10px;
+}
+
+.viewAllFriendPost > .allPosts > .panel-body > .row > .col-lg-6 > .btn-group {
+    padding: 5px;
+}
+.viewAllFriendPost > .allPosts > .panel-body > .row > .col-lg-6 > .btn-group  > button > img{
+    height: 15px;
+    width: 15px;
+    margin: 0 0 -4px 0;
+}
+.viewAllFriendPost > .allPosts > .panel-body > .row > .col-lg-6 > .btn-group > button[type='button']{
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+.GoEventCommentTalkAboutIT > input[type="button"]{
+    border: none;
+    background-color: #fff;
+    color: #00c000;
+}
+
+/*
+.viewAllFriendPost input[type="button"]{
+    margin: 0 0 15px 200px;
+}*/
+.viewAllFriendPost > div > .userPostDate > .OneB{
+    margin: -20px 0 0 0;
+}
+.viewAllFriendPost > div > .userPostDate > .OneB > span {
+    margin: 0 0 0 10px;
+    font-size: 10pt;
+    color: #989897;
+}
+
+.viewAllFriendPost > div > .contentPOST{
+    width: 500px;
+    margin: 25px 0 -20px 0;
+    font-size: 10pt;
+    color: #fff;
+    padding: 5px;
+}
+
+#goUp {
+    margin: 0 0 0 800px;
+    position: fixed;
+    display:none;
+    border-radius: 100%;
+    background-color: #139a37;
+    padding: 10px 15px;
+    opacity: 0.8;
+    color: #fff;
+}
+#goUp a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    vertical-align: center;
+}
+
+/* User Page, */
+/*------------*/
+/*
+.userInfo {
+    margin: 50px 0 0 0;
+}
+
+.userInfo > .userHeader {
+    margin: 0 700px 0 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}*/
+
+
+
+/*
+.usrContHR hr {
+    margin: 0;
+    color: #50a867;
+    border: 3px solid #50a867;
+    border-radius: 3px;
+}
+
+.Postevents {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: justify;
+    height: 500px;
+    width: 500px;
+}*/
+
+/* That css part is for  user/events/photos/*/
+/*------------------------------------------*/
+#rightTools {
+    margin: 55px 110px 0 20px;
+    padding: 0;
+}
+#rightTools li {
+    text-decoration: none;
+}
+
+#rightTools hr {
+    border: 1px solid #50a867;
+}
+
+#rightTools hr.innerhr {
+    border-color: #444442;
+}
+
+#Option-2 h6 {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#Option-1, #Option-2, #Option-3, #Option-4, #Option-5, #Option-7, #Option-8, #Option-9, #Option-20, #Option-10, #Option-11, #Option-12, #Option-15, #Option-16, #Option-17, #Option-19, #Option-22{
+    margin: 0 15px 0 15px;
+}
+
+div.sections_btn_holder > p  {
+    padding: 10px 0 10px 40px;
+    background-color: none;
+    cursor: pointer;
+    font-size: 14pt;
+}
+div.sections_btn_holder {
+    border: 1px solid #429552;
+    border-radius: 5px;
+    margin: 0 0 10px 70px;
+    background-color: #eeeff0;
+    padding: 6px 0 6px 0;
+    transition: all 0.2s linear;
+}
+div.sections_btn_holder:hover {
+    background-color: #fff;
+}
+
+.options ul > li {
+    list-style: none outside none;
+}
+
+
+/*---- CSS for Settings Page-------*/
+/*---------------------------------*/
+
+div.accountSettingsPic {
+    height: 260px;
+    width: 350px;
+    background-color: blue;
+    margin: 0 0 -280px 500px;
+
+}
+div.accountSettingsPic img {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    display: block;
+}
+div.accountSettingsInfo {margin: 15px 0 10px 0;}
+span.accountNamesDisplay > p {margin: 0 -180px 0 20px;padding: 10px 5px;text-align: center;}
+p.MemberOn {
+    margin: -20px 0 0 0;
+    float: right;
+    font-size: 10pt;
+}
+span.accountNamesDisplay {
+    text-align: right;
+    width: 140px;
+    padding: 0 0 5px 0;
+    margin: 3px 0 0 0;
+    float: left; 
+    font-size: 11pt;
+}
+.newInfoError {
+    margin: 0 345px 0 0;
+    text-align: center;
+    color: #f00;
+    font-size: 10pt; 
+    padding: 0 0 -10px 0;
+}
+div.prosileInputSettings {margin: -23px 0 5px 160px;}
+div.prosileInputSettings input[type="text"], div.prosileInputSettings input[type="password"], .passwordChange input[type="password"]{border-top: none;border-left: none;border-right: none;border-radius: none;padding: 0 0 0 6px;outline: none; width: 200px;}
+
+div.prosileInputSettings input[type="submit"]{
+    margin: 20px 0 0 120px;
+    outline: none;
+}
+div#photoFileChnage {
+    margin: -250px 0 250px 400px;
+    color: transparent;
+}
+div.PhotoError {
+    margin: 5px 0 0 400px;
+    color: #f00;
+    font-size: 10pt;
+}
+.map-display-list > p {
+    text-align: center;
+    margin: 50px 670px 0 0;
+    position: absolute;
+}
+form.user-likes {
+    margin: 0 0 0 540px;
+}
+form.user-likes > ul.ulOne-type {
+    list-style-type: none;
+}
+
+form.user-likes > ul.ulTwo-topic {
+    list-style-type: none;
+    margin: -450px 0 0 250px;
+    position: absolute;
+}
+form.user-likes > input[type="submit"]{
+    margin: 60px 0 30px 0;
+}
+
+.passwordChange p { 
+    text-align: center;
+}
+.passwordChange input[type="password"]{margin: 0 0 10px 420px; width: 200px;}
+
+.passwordChange input[type="submit"]{
+    margin: 0 0 0 465px;
+}
+
+.PasswordChnageFromOldToNew {color: #f00;text-align: center;font-size: 10pt;}
+
+.disableAccount a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #fff;
+
+}
+.disableAccount {
+    border: 2px solid #e1e1e1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 0 10px 30px;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #dc5644;
+}
+
+.deleteAccount a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #fff;
+}
+
+.deleteAccount {
+    border: 2px solid #e1e1e1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid #e1e1e1;
+    padding: 10px 0 10px 30px;
+    background-color: #dc5644;
+
+}
+
+.sections_btn_holder > div > .myEvents{
+
+display: table;
+background-color: red;
+}
+
+/*   CSS FOR USER PAGE, WHERE THEY WILL SEE THIER EVENTSAND POSTS-*/
+/*----------------------------------------------------------------*/
+
+#UserPage {
+    margin: 90px 0 20px 0;
+}
+
+#UserPage h6 {
+    margin: auto;
+    padding: 0 0 0 300px;
+}
+
+table.calendar {
+    background-color: #fdfddd;
+    margin: -18px 0 0 0px;
+    border-collapse: collapse;
+}
+table.calendar th {
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+
+table.calendar td {
+    padding: 3px;
+    height: 0;
+    width: 650px;
+}
+
+.4buttonsInside {
+    margin: 0 2px 0 2px;
+}
+
+
+/*css for log in page if they were log on */
+/*----------------------------------------*/
+
+.loginHolds {
+    height: 200px;
+    width: 350px;
+    background-color: #8ed96a;
+    margin: 100px auto;
+    box-shadow: -1px 1px 19px 0px rgba(50, 50, 50, 0.63);
+    -webkit-box-shadow: -1px 1px 19px 0px rgba(50, 50, 50, 0.63);
+    -moz-box-shadow: -1px 1px 19px 0px rgba(50, 50, 50, 0.63);
+}
+
+.loginHolds blockquote {
+    padding: 10px;
+}
+
+.title img {
+    margin: 0 0 -80px 0;
+}
+
+.title p {
+    margin: -80px 0 300px 0;
+    font-size: 30pt;
+    padding: 0;
+}
+div.signOutTitle {
+    background-color: #79c254;
+    padding: 20px 10px;
+}
+div.signOutButton {
+    margin: 43px 0 0 0;
+    padding: 20px 10px;
+    background-color: #79c254;
+}
+
+/*CSS FOR search results*/
+/*----------------------*/
+.searchDisplayResult {
+    display: table;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 91%;
+}
+
+.resultWindow {
+    background-color: #fff;
+    display: inline-block;
+    height: 100px;
+    width: 275px;
+    margin: 0 5px 5px 0;
+}
+
+.resultWindow-error > p{
+    margin: 50px 0 0 0;
+    color: #f94533;
+}
+
+.resultWindow:hover {
+    background-color: #f2efef;
+}
+
+.resultWindow > a > .searchResultPic {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin: 5px 0 -70px 5px;
+}
+.resultWindow > .SearchedName {
+    font-size: 10pt;
+    margin: -84px 0 10px 105px;
+}
+.resultWindow > .SearchedEventName {
+    font-size: 10pt;
+    margin: -24px 0 10px 105px;
+}
+.resultWindow > .MakerName {
+    font-size: 10pt;
+    margin: -6px 0 5px 105px;
+}
+.resultWindow > .resultView {
+    padding: 0 7px;
+    margin: 0 0 0 99px;
+    text-decoration: none;
+    color: #000;
+    font-size: 10pt;
+}
+.resultWindow > .resultView:hover {
+    color: #297438;
+    margin: 0 0 0 99px;
+}
+
+.resultWindow > .resultAdd {
+    padding: 0 7px;
+    margin: 0 0 0 4px;
+    text-decoration: none;
+    color: #000;
+    font-size: 10pt;
+}
+
+.resultWindow > .resultAdd:hover {
+    color: #297438;
+    margin: 0 0 0 4px;
+}
+
+.resultWindow > span > .friendsAlready {
+    margin: 0 15px 0 170px;
+}
+
+
+/*
+.resultWindow {
+    background-color: #fff;
+    display: inline-block;
+    height: 100px;
+    width: 475px;
+    margin: 0 5px 5px 0;
+}
+
+.resultWindow-error > p{
+    margin: 50px 0 0 0;
+    color: #f94533;
+}
+
+.resultWindow:hover {
+    background-color: #f2efef;
+}
+
+.resultWindow > a > .searchResultPic {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin: 5px 0 -70px 5px;
+}
+.resultWindow > .SearchedName {
+    font-size: 10pt;
+    margin: -24px 0 10px 105px;
+}
+.resultWindow > .MakerName {
+    font-size: 10pt;
+    margin: -6px 0 5px 105px;
+}
+.resultWindow > .resultView {
+    padding: 0 7px;
+    margin: 0 0 0 99px;
+    text-decoration: none;
+    color: #000;
+    font-size: 10pt;
+}
+.resultWindow > .resultView:hover {
+    color: #297438;
+    margin: 0 0 0 99px;
+}
+
+.resultWindow > .resultAdd {
+    padding: 0 7px;
+    margin: 0 0 0 4px;
+    text-decoration: none;
+    color: #000;
+    font-size: 10pt;
+}
+
+.resultWindow > .resultAdd:hover {
+    color: #297438;
+    margin: 0 0 0 4px;
+}
+
+.resultWindow > span > .friendsAlready {
+    margin: 0 15px 0 170px;
+}*/
+
+/*CSS FOR FRIEND PAGE*/
+/*-------------------*/
+#rightTools > .sections_btn_holder > p > .numOfTotalFriends {
+    color: #aaa;
+    font-size: 12pt;
+    margin: 0 0 0 10px;
+}
+
+#rightTools > #Option-10 > .allNewFriends {
+    display: table;
+    margin: 0 0 0 0;
+}
+
+.CssIsForNewFriendOnlineFCurentF {
+    background-color: #fff;
+    display: inline-block;
+    height: 100px;
+    width: 275px;
+    margin: 0 0 5px 0;
+}
+.CssIsForNewFriendOnlineFCurentF:hover{
+    background-color: #f2efef;
+}
+
+.CssIsForNewFriendOnlineFCurentF > div {
+    width: 90px;
+    height: 90px;
+    margin: 5px 0 -90px 5px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%; 
+    -ms-border-radius: 100%; 
+    -o-border-radius: 100%; 
+    overflow: hidden;
+    position:relative;
+}
+
+.CssIsForNewFriendOnlineFCurentF > div > a > img.NewFriendRequestPic {
+
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    max-width:140%;
+    max-height:140%;
+}
+
+.CssIsForNewFriendOnlineFCurentF > .Name {
+    font-size: 11pt;
+    margin: -18px 0 20px 105px;
+}
+
+.CssIsForNewFriendOnlineFCurentF > .friendConfirmButton {
+    margin: 0 15px 0 110px;
+    text-decoration: none;
+    color: #000;
+    font-size: 11pt;
+
+}
+
+.CssIsForNewFriendOnlineFCurentF > .friendConfirmButton:hover {
+    color: #297438;
+}
+
+.CssIsForNewFriendOnlineFCurentF > .friendDeclineButton {
+    text-decoration: none;
+    color: #000;
+    font-size: 11pt;
+}
+.CssIsForNewFriendOnlineFCurentF > .friendDeclineButton:hover {
+    color: #f42626;
+}
+
+.CssIsForNewFriendOnlineFCurentF > .delCurFriend {
+    margin: 0 0 0 40px;
+    text-decoration: none;
+    color: #000;
+    font-size: 11pt;
+}
+.CssIsForNewFriendOnlineFCurentF > .delCurFriend:hover {
+    color: #f00;
+}
+
+.CssIsForNewFriendOnlineFCurentF > .resultView {
+    padding: 0 7px;
+    border-radius: 15px;
+    margin: 0 3px 0 100px;
+    text-decoration: none;
+    color: #000;
+    font-size: 10pt;
+}
+
+.CssIsForNewFriendOnlineFCurentF > .resultView:hover {
+    color: #297438;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.friendView {
+    padding: 0 7px;
+    
+    margin: 0 3px 0 100px;
+    text-decoration: none;
+    color: #000;
+    font-size: 10pt;
+}
+.friendView:hover {
+    color: #297438;
+}
+
+.friendMsg{
+    padding: 0 7px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 10pt;
+}
+.friendMsg:hover {
+    color: #297438;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+
+/*THIS CSS IS FOR register an event*/
+/*--------------------------------*/
+
+.registrationLogo {
+    margin: 120px 0 0 0;
+    height: 50px;
+    width: 50px;
+}
+
+.milberRegistration {
+    margin: -30px 0 -22px 65px;
+    font-size: 15pt;
+}
+
+#makingNewEventForm > .EventChoiceOrPoint {
+    margin: 0 0 0 250px;
+}
+
+.newEventPage {
+    margin: 50px 0 0 0;
+    font-size: 25pt;
+}
+
+.eventClass {
+    margin: 0 40px;
+}
+
+.eventClass input[type="text"]{
+    margin: -5px 0 5px 130px;
+    padding: 8px 0 8px 5px;
+    width: 300px;
+    border-radius: 4px;
+    /*background: #fff;*/
+    font-size: 9pt;
+    border: 1px solid #a9a9a9;
+    /*
+    -webkit-box-shadow: 0px 0px 4px #ffffff;
+    -mox-box-shadow: 0px 0px 4px #ffffff;
+    box-shadow: 0px 0px 4px #ffffff;*/
+}
+.eventClass input[type="password"]{
+    margin: -5px 0 5px 130px;
+    padding: 8px 0 8px 5px;
+    width: 300px;
+    border-radius: 4px;
+    /*background: #fff;*/
+    font-size: 9pt;
+    border: 1px solid #a9a9a9;/*
+    -webkit-box-shadow: 0px 0px 4px #ffffff;
+    -mox-box-shadow: 0px 0px 4px #ffffff;
+    box-shadow: 0px 0px 4px #ffffff;*/
+}
+
+.eventClass input[type="submit"]{
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    margin: 0 0 0 80px;
+}
+
+.eventClass input[type="text"]:focus, .eventClass input[type="submit"]:focus, input[type="password"]:focus, .eventClass textarea:focus, .eventClass select:focus {
+    outline-color: 0;
+    outline: none;
+    -webkit-box-shadow: 0px 0px 4px #49ef74;
+    -mox-box-shadow: 0px 0px 4px #49ef74;
+    box-shadow: 0px 0px 4px #49ef74;
+} 
+/*
+.type-topic-fields {
+    margin: 0 0 -60px 0;
+}*/
+
+.topic-display {
+    margin: 0 0 -10px 0;
+
+}
+
+.eventClass textarea {
+    margin: 0 0 -110px 500px;
+    padding: 5px;
+    height: 100px;
+    width: 610px;
+    resize: none;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
+
+.eventClass select {
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    margin: 0 -63px 5px 80px;
+}
+
+.eventClass > .fieldNamesOnNewEvent {
+    font-size: 11pt;
+    margin: 0 0 -20px 0;
+    text-align: left;
+}
+
+.eventClass > .newEventErrorMsg {
+    margin: -2px 0 -3px -100px;
+    font-size: 11pt;
+    color: #f00;
+}
+
+.eventClass > .eventTypeChoice {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   padding: 5px 10px;
+   margin: 0 0 0 130px;
+   border: 1px solid #c0c0c0;
+   width: 100px;
+}
+
+.eventClass > .dayMonthYearS {
+    margin: -80px 0 0 35px;
+}
+
+.eventClass > .eventStartText {
+    margin: 0 0 0 37px;
+}
+
+.eventClass > .dayMonthYearEnd{
+    margin: -80px 0 0 35px;
+}
+
+.eventClass > .eventEndText {
+    margin: 0 0 0 50px;
+}
+
+
+
+.eventClass > .newEventPicBOX {
+    margin: -360px 0 10px 500px;
+    height: 300px;
+    width: 600px;
+    position: relative;   
+    border: 5px dashed #aaa;
+    padding: 5px;
+    
+
+}
+
+.eventClass > .newEventPicBOX > .newEventPicture{
+     max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+}
+
+.eventClass > .newEventPicBOX > div {
+    text-align: center;
+    color: #aaa;
+}
+
+.eventClass > .newEventPicBOX > input[type="file"] {
+    margin: 0 0 0 263px;
+    color: transparent;
+}
+
+
+/* THis CSS is for Message button part */
+/*-------------------------------------*/
+
+.messageContainer {
+    height: 612px;
+    width: 750px;
+    margin: 37px auto 0;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.messageToolB {
+    background-color: red;
+    height: 50px;
+}
+
+.talkingTo {
+    height: 562px;
+    width: 249px;
+    float: left;
+    border-right: 1px solid #eee;
+}
+
+.messageContainer > .table-col-2 > .messageBody {
+   float: right;
+}
+
+
+.messageContainer > .table-col-2 > .messageBody > .messageWindow {
+    margin: 0 0 0 0;
+    height: 500px;
+    width: 500px;
+    border-bottom: 1px solid #fff;
+}
+
+.messageContainer > .table-col-2 > .messageBody > .messageForm {
+    padding: 10px;
+    background-color: #eee;
+}
+.messageContainer > .table-col-2 > .messageBody > .messageForm > textarea {
+    resize: none;
+}
+
+/*This CSS is for friend profile page*/
+/*-----------------------------------*/
+
+.friendInfo {
+    margin: 0 700px 0 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.friendInfo > .viewFriendName {
+    text-align: center;
+    margin: -50px 0 0 -90px;
+}
+
+.friendProfile > .friendInfo > div {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 50px 0 0 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    overflow: hidden;
+    position:relative;
+}
+.friendProfile > .friendInfo > div > img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    max-width:140%;
+    max-height:140%;
+    text-align:center;
+    display:block;
+}
+
+.friendProfile {
+    margin: 50px 0 0 0;
+}
+
+.friendProfile > .friendsEventsPage {
+    margin: 20px 700px 0 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    height: 900px;
+    overflow: scroll;
+}
+
+.friendProfile > .friendsEventsPage > a > .friendProfPage {
+    background-color: #fff;
+    margin: 0 0 10px 0;
+    height: 106px;
+    cursor: pointer;
+    border-bottom: 1px solid #aaa;
+    display: block;
+}
+.friendProfile > .friendsEventsPage > a > .friendProfPage:hover {
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+.friendProfile > .friendsEventsPage > a > .friendProfPage > div > .profileUserEventPic {
+    height: 100px;
+    width: 190px;
+    margin: 0 0 -90px 0;
+    position: relative;
+
+}
+.friendProfile > .friendsEventsPage > a {
+    text-decoration: none;
+    color: #000;
+}
+.friendProfile > .friendsEventsPage > a > .friendProfPage > .eventNameUserProf {
+    margin: 0 0 0 200px;
+}
+.friendProfile > .friendsEventsPage > a > .friendProfPage > .eventTypeUserProf {
+    margin: 0 0 0 20px;
+}
+
+.friendProfile > .friendsEventsPage > a > .friendProfPage > .startEndDateUserProf {
+    margin: 0 0 0 200px;
+}
+.friendProfile > .friendsEventsPage > a > .friendProfPage > .addressUserProf {
+    margin: 0 0 0 200px;
+}
+.friendProfile > .friendsEventsPage > .user-has-no-events {
+    text-align: center;
+}
+
+
+.usersAllPosts {
+    display: block;
+    height: 10px;
+    width: 550px;
+    margin: -1180px 0 0 600px;
+    position: relative;
+
+}
+
+ .usersAllPosts > .Posts > .panel-heading > .picDisplay > img{
+    top:0;
+    bottom:0;
+    margin: auto;
+    max-width:135%;
+    max-height:135%;
+}
+
+ .usersAllPosts > .Posts > .panel-heading > .picDisplay {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    margin: 0 0 -27px 5px;
+    /*border: 2px solid #22973b;*/
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%; 
+    -ms-border-radius: 100%; 
+    -o-border-radius: 100%; 
+    overflow: hidden;
+    position:relative;
+
+ }
+
+ .usersAllPosts > .Posts > .panel-heading > .userPostDate {
+    background-color: #0c4e01;
+}
+
+ .usersAllPosts > .Posts > .panel-heading > .userPostDate > blockquote {
+    color: #fff;
+    font-size: 10pt; 
+    margin: -20px 0 -25px 0;
+    padding: 5px 0 5px 65px;
+}
+
+ .usersAllPosts > .Posts > .panel-heading > .userPostDate > .OneB {
+    margin: -20px 0 0 0;
+}
+ .usersAllPosts > .Posts > .panel-heading > .userPostDate > .OneB > span {
+    margin: 0 0 0 10px;
+    font-size: 10pt;
+    color: #c7e1cc;
+}
+
+.usersAllPosts > .Posts > .panel-body > div > div:nth-child(even){
+    border-radius: 3px;
+}
+.usersAllPosts > .Posts > .panel-body  > div > div:nth-child(odd){
+    border-radius: 3px;
+}
+.usersAllPosts > .Posts > .panel-body > .row > .col-lg-6 > blockquote {
+    width: 500px;
+    margin: -5px 0 5px 0;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+.usersAllPosts > .Posts > .panel-body > .row > .col-lg-6 > .btn-group {
+    padding: 5px;
+}
+.usersAllPosts > .Posts > .panel-body > .row > .col-lg-6 > .btn-group  > button > img{
+    height: 15px;
+    width: 15px;
+    margin: 0 0 -4px 0;
+}
+.usersAllPosts > .Posts > .panel-body > .row > .col-lg-6 > .btn-group > button[type='button']{
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+#goUpfP {
+    margin: 500px 0 0 540px;
+    position: fixed;
+    display:none;
+    border-radius: 100%;
+    background-color: #139a37;
+    padding: 10px 15px;
+    opacity: 0.8;
+    color: #fff;
+}
+#goUpfP a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    vertical-align: center;
+}
+
+#goUpfview {
+    margin: 0 600px 0 600px;
+    position: fixed;
+    display:none;
+    border-radius: 100%;
+    background-color: #139a37;
+    padding: 10px 15px;
+    opacity: 0.8;
+    color: #fff;
+}
+#goUpfview a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    vertical-align: center;
+}
+
+
+ 
+ .CopyRightfP {
+    text-align: left;
+    margin: 0 0 -40px 0;
+ }
+ .CopyRightfP, .CopyRightfP > a{
+    text-decoration: none;
+    color: #777;
+    font-size: 11pt;
+}
+
+
+
+/*   Leafevent RIGHTS */
+/*----------------*/
+.milberRights p {color: #808080;font-size: 10pt;margin: 0 0 0 900px;}
+
+.milberRights2 {
+    color: #ddd;
+}
+
+.CopyRight {
+    text-align: right;
+    margin: 0 0 -40px 0;
+}
+.CopyRight, .CopyRight > a{
+    text-decoration: none;
+    color: #777;
+    font-size: 11pt;
+}
+
+.CopyRightView {
+    margin: 100px 0 0 0;
+    float: right;
+}
+.CopyRightView, .CopyRightView > a{
+    text-decoration: none;
+    color: #777;
+    font-size: 11pt;
+}
+
+
+
+/*XSymvan terms css*/
+/*-----------------*/
+
+.termsLog {
+    width: 100%;
+    height: 40px;
+    background-color: #429552;
+    padding: 15px 0 0 0;
+    position: fixed;
+}
+.termsLog > .loginTopB {
+    margin: -50px 0 0 800px;
+
+}
+
+.termsLog > .loginTopB > input[type="text"], .termsLog > .loginTopB input[type="password"] {
+    padding: 3px;
+
+}
+
+.termsLog > a > img {
+    margin: -20px 0 0 140px;
+    -webkit-transform: scale(0.6); 
+     -moz-transform: scale(0.6); 
+      -ms-transform: scale(0.6); 
+       -o-transform: scale(0.6); 
+          transform: scale(0.6);
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+}
+
+.termSize {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.termSize > p {
+    font-size: 9pt;
+}
+
+/*this css is for an event page*/
+/*-----------------------------*/
+.left-rigth > .left {
+    float: left;
+    position: relative;
+}
+.left-rigth > .right {
+    float: right;
+    position: relative;
+}
+
+.left-rigth > .more-event-pics {
+    margin: 450px 0 0 0;
+    position: absolute;
+}
+
+.left-rigth > .more-event-pics  > .add-more-event-pic {
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    position:relative;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.left-rigth > .more-event-pics  > .add-more-event-pic img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+}
+.left-rigth > .more-event-pics  > .add-more-event-pic > p {
+    color: #aaa;
+    font-size: 10pt;
+    text-align: center;
+}
+.left-rigth > .more-event-pics  > .add-more-event-pic > form > input[type="file"] {
+    color: transparent;
+    margin: 10px 0 0 60px;
+}
+
+.left-rigth .eventPic > div {
+    width: 700px;
+    height: 370px;
+    overflow: hidden;
+    position:relative;
+    margin: 50px 0 0 0;
+    border-bottom: 1px solid #aaa;
+}
+
+.left-rigth .eventPic > div > img.view-event-pic {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+    text-align:center;
+    display:block;
+}
+.left-rigth > .smallcontent > .more-events-from-user > a {
+    text-decoration: none;
+}
+
+.left-rigth > .smallcontent > .more-events-from-user > p {
+    font-size: 16pt;
+}
+
+.left-rigth > .smallcontent > .more-events-from-user > a > div {
+    display: inline-block;
+    text-align: center;
+    color: #000;
+}
+.left-rigth > .smallcontent > .more-events-from-user > a > div > div {
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    position:relative;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin: 2px;
+}
+.left-rigth > .smallcontent > .more-events-from-user > a > div > div:hover {
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+.left-rigth > .smallcontent > .more-events-from-user > a > div > div > img{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width:140%;
+    max-height:150%;
+    text-align:center;
+    display:block;
+}
+
+.left-rigth > .smallcontent {
+    margin: -372px 0 0 710px;
+    display:block;
+    position: relative;
+}
+
+.left-rigth .smallcontent p {
+    /*text-align: center;
+    font-size: 16pt;*/
+   text-align: center;
+}
+
+.left-rigth .smallcontent > .view-event-name{
+    font-size: 25pt;
+}
+.view-event-desc{
+    height: 317px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+
+}
+.view-event-addr {
+    font-size: 17pt;
+
+}
+.view-event-dates {
+    margin: 0 0 30px 0;
+
+}
+.view-event-time {
+    
+}
+.view-event-ticket {
+
+}
+.view-event-price {
+
+}
+.view-event-maker {
+
+}
+
+/*CSS FOR interestsToDisplay*/
+/*--------------------------*/
+
+.new-interest-list {
+   
+}
+
+.new-interest-list > input[type="submit"]{
+    margin: 0 0 0 300px;
+}
+
+.new-interest-list > .important-type {
+    margin: 0 0 0 300px;
+    list-style-type: none;
+}
+
+.new-interest-list > .important-topic {
+    margin: -445px 0 -50px 800px;
+    list-style-type: none;
+}
+
+p.expo-for-interest-list {
+    margin: 50px 200px 0 200px;
+    text-align: center;
+
+}
+.main_filed_search {
+    margin: 50px 0 0 0;
+}
+.main_filed_search > .event_search_form {
+    text-align: center;
+    margin: 0 0 20px 0;
+
+}
+.event_search_form > input {
+    width: 300px;
+    font-size: 11pt;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.event_search_form > input[type="submit"]{
+    width: 100px;
+    font-size: 11pt;
+    border: 1px solid #50a867;
+    border-radius: 3px;
+    padding: 6px;
+    background-color: #50a867;
+    color: #fff;
+
+}
+.event_search_form > select {
+    height: 33px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+.resurch_result {
+    display: table;
+}
+.resurch_result  > .display_event {
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+    font-size: 11pt;
+}
+
+.display_event > .img-div {
+    width: 230px;
+    height: 120px;
+    border-radius: 5px;
+    overflow: hidden;
+    position:relative;
+
+}
+
+.display_event > .img-div > img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width:143%;
+    max-height:143%;
+    text-align:center;
+    display:block;
+}
+
+.error-msg-for-eventsearch {
+    margin: 0 auto;
+    color: #ea4e17;
+    font-size: 12pt;
+}
+
+
+
+
+
+
+

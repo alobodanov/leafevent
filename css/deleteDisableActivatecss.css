@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: 'Alice', serif;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.BodyTag p {
+	text-align: center;
+	padding: 100px 0 20px 0;
+}
+
+.disableform p {
+    padding: 0;
+    text-align: center;
+}
+.disableform textarea{
+    resize: none;
+    margin: 20px 0 20px 350px;
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
+
+.disableform input[type="password"]{
+    margin: 10px 0 10px 420px;
+    padding: 0 0 0 5px;
+}
+.disableform input[type="password"]:focus {
+    outline: none;
+    -webkit-box-shadow: 0px 0px 4px #49ef74;
+    -mox-box-shadow: 0px 0px 4px #49ef74;
+    box-shadow: 0px 0px 4px #49ef74;
+}
+
+.disableform input[type="submit"]{
+    margin: 0 0 0 446px;
+}
+.disableAccountPageName p {
+    margin: 0;
+    font-size: 30pt;
+    padding: 0;
+}
+.disableAccountHeader img {
+    margin: 0 0 -80px 0;
+}
+
+/*css from here is used for an acctivate page*/
+/*-------------------------------------------*/
+
+.activateAccountPageName p{
+    margin: -80px 0 0 0;
+    font-size: 30pt;
+    padding: 0;
+}
+.ActivateContent .info1 p {
+    background-color: red;
+}
+
+.activateForm {
+    margin: 0 0 0 400px;
+}
+
+.activateForm input[type="text"], .activateForm input[type="password"]{
+    padding: 0 0 0 5px;
+    margin: 0 0 10px 0;
+    width: 195px;
+}
+
+.activateForm input[type="text"]:focus, .activateForm input[type="password"]:focus {
+    outline: none;
+    -webkit-box-shadow: 0px 0px 4px #49ef74;
+    -mox-box-shadow: 0px 0px 4px #49ef74;
+    box-shadow: 0px 0px 4px #49ef74;
+}
+.activateForm a{
+    margin: 0;
+    padding: 0;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #50a867;
+}
+
+/* css for deleting a profile*/
+/*---------------------------*/
+.deletingForm {
+    margin: 0 0 0 70px;
+}
+.deletingForm input[type="password"]{
+    margin: 5px 0 5px 400px;
+    padding: 5px;
+    width: 300px;
+    font-size: 13pt;
+}
+
+.deletingForm input[type="submit"]{
+    color: #e62819;
+    background-color: transparent;
+    border: 1px solid #e62819;
+    font-size: 11pt;
+    border-radius: 3px;
+    padding: 3px 15px;
+}
+.deletingForm input[type="submit"]:hover{
+    background-color: #e62819;
+    color: #fff;
+}
+.deletingForm a {
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    color: #f5a931;
+    background-color: transparent;
+    border: 1px solid #f5a931;
+    font-size: 11pt;
+    border-radius: 3px;
+    padding: 3px 15px;
+}
+.deletingForm a:hover {
+    background-color: #f5a931;
+    color: #fff;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="images/icon16x16.jpg" type="image/jpg">
+    <title class="WelcomeMilber">Milber</title>
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+    <script src="homeJavaScript.js" type="text/javascript"></script> 
+</head>
+<body>
+	<div class="BodyTag">
+	  	<div id="header">
+	  		<ul>
+	  			<li><span class="buton"></span></li>
+	  				<ul class="nav_Menu">
+					    <li><a href="#">Messages</a></li>
+			    		<li><a href="#">New friend</a></li>
+			    		
+			    		<li><a href="#">Add event</a></li>
+			    		<li><a href="#">Delete event</a></li>
+			    		<li><a href="#">Your vent</a></li>
+			    		
+			   			<li><a href="#">Setings</a></li>
+			    		
+			   			<li><a href="index.html">Sign out</a></li>
+		     		</ul>
+		   	 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		   	 	</script>
+		   		<script>
+					$('span.buton').click(function () {
+						//$('ul.nav_Menu').slideToggle();
+						$('ul.nav_Menu').toggle();
+					})
+				</script>
+		   		<li><a href="home.html"><img src="images/3030.jpg" alt="70log" /></a></li>
+				<li><a href="userLookMain.html">UserPage/UserName</a></li>
+	    		<form action="search.php" method="GET" class="search">
+	        		<input type="text" size="45" placeholder="Look for events people and pages"/>
+	    		</form>
+	    		<hr>
+		   	</ul> 
+		</div>
+
+
+
+		<div class="MainContent">
+    		<div class="content">
+        	..........
+	    	</div>
+	    	<div class="contentInfo">
+	  		............
+	    	</div>
+
+
+
+	    	<form class="wanttosay" method="POST" class="anythingToSay">
+	       		<textarea id="Whan_to_say" name="anythingToSay" placeholder="Aything to say?"></textarea><br />
+	       		<input type="submit" name="sumbit" value="submit" />
+	    	</form>
+	    </div>
+	</div>
+</body>
+</html>

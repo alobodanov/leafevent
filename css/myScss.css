@@ -1,0 +1,368 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: 'Alice', serif;
+    vertical-align: baseline;
+    background: transparent;
+}
+/* Index Page, where the user can Log in into thier account*/
+.BodyTagIndex {margin: auto; width: 1200px; height: 100%;}
+.BodyTag {margin: auto; width: 1000px; height: 100%;}
+img.indexPhoto {
+    margin: 0 0 10px 50px;
+    width: 1100px;
+    height: 420px;
+    opacity: 1;
+    -moz-transition: opacity 3s linear;
+}
+
+.foot {height: 55px;width: 100%;position: 100%;left: 0px;bottom: 0px;right: 0px;color: #ffffff;font-size: 11pt;margin: 20px 0 0 0;}
+.foot li {padding: 0 5px 0 0; font-size: 10pt;display: inline-block;margin: 0 0 0 10px;}
+.foot a {text-decoration: none;color: #50a;}
+.foot p {color: #808080;}
+form.form {margin: -100px 100px 0 455px;}
+input.userEmail {margin: 0 0 0 29px;padding: 1px 0 1px 3px;}
+input.userPassword {margin: 0 0 0 35px;padding: 1px 0 1px 3px;}
+input[type="text"], input[type="password"] {border-radius: 4px;margin: 0 0 0 10px;background: white;font-size: 9pt;border: 1px solid #a9a9a9;}
+.userEmail input[type="text"]:focus, .pass input[type="password"]:focus {outline: none;-webkit-box-shadow: 0px 0px 4px #49ef74;-mox-box-shadow: 0px 0px 4px #49ef74;box-shadow: 0px 0px 4px #49ef74;}
+.pass p {font-size: 20pt;}
+.forgotPass p {font-size: 11pt;text-decoration: none;margin: -14px 0 -18px 13px;}
+.forgotPass a {color: #000;text-decoration: none;}
+
+.video {
+    margin: 0 0 0 10px;
+}
+
+input.login {color: #ffffff;border: 1px solid #50a867;border-radius: 4px;font-size: 10pt;background: #50a867;margin: -50px 0 0 230px;cursor: pointer;}
+.mapNightInfo {margin: -170px 405px 10px 354px; background-color: #eff460;}
+.maplogo {margin: 0 350px -30px 180px; padding: 10px 0 0 0;}
+.mapExpo {margin: 10px 0 0 0;padding: 30px 0 29px 0;font-size: 11pt;text-align: center;}
+.createNewId{margin: -150px 100px 60px 800px; padding: 10px 0 0 0;}
+.userPic {margin: 0 0 0 115px;}
+.newUser p {font-size: 12pt;text-align: center;}
+.newUser a {color: #50a867;text-decoration: none;}
+
+.inputErrorE {
+    padding: -20px 0 20px 300px;
+    margin: -20px 0 -20px 300px;
+    color: #ff0000;
+}
+
+.inputErrorP {
+    padding: -30px 0 0 300px;
+    margin: -17px 0 -38px 300px;
+    color: #ff0000;
+}
+
+/* Milber Page, where the user can see the content of the map, view new events and posts  */
+/* ---------------------------------------------------------------------*/
+
+#header {width: 100%; height: auto; background-color: #429552; padding: 13px 0 0 0; position: fixed; top: 0; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;}
+#headerContent {margin: auto; width: 1000px; height: 100%;}
+#header hr {margin: 0;border: 3px solid #429552;border-radius: 3px;}
+img.userPhoto {margin: 260px 0 -130px 60px;padding: 0;position: relative;width: 60px;height: 60px; border-radius: 100%;}
+.userName a {text-decoration: none;font-size: 16pt;margin: -30px 500px 0 116px;padding: 0 120px 0 10px;color: #fff;}
+ul.onenav  {padding: 10px 0 0 400px;margin: -40px 0 -255px 0;}
+ul.onenav > li:hover {cursor: pointer;}
+ul.onenav li {display: inline;padding: 0 10px;}
+ul.onenav img {width: 40px;height: 40px;border-radius: 100%;}
+#header input[type="text"]{border-radius: 20px;font-size: 10pt;outline: none;padding: 4px 0 4px 25px;margin: 9px 0 -2px 620px;background: #000 url(../images/loop2.png) no-repeat;background-position: center left;background-color: #a3eeb2;border: none;box-shadow: 0 2px 4px rgba(0,0,0,0.80) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;transition: all 0.2s linear;}
+#header input[type="text"]:focus {background-color: #fff;}
+.navTools {margin: -40px 53px -20px 415px;}
+ul.navTools  {padding: 13px 0px 0px 1px;}
+li.about_btn a:hover {border-top-left-radius: 4px;}
+li.friend_btn a:hover {border-top-right-radius: 4px;}
+ul.navTools li {display: inline; margin: 0; padding: 0;}
+ul.navTools a {text-decoration: none;color: #a3eeb2;display: inline;padding: 7px 39px 12px 39px; margin: -20px 0 0 0;}
+ul.navTools a:hover {color: #fff;}
+
+.content {
+    background-color: #ffffff;
+    margin: 155px 0 0 14px;
+    border: 4px solid #41c5ad;
+    max-width:680px;
+    height: 480px;
+}
+
+.contentInfo {
+    background-color: #ffffff;
+    margin: -488px 0 0px 698px;
+    width: 280px;
+    border: 4px solid red;
+    height: 480px;
+}
+
+.MainContent{
+    margin: 70px auto;
+    width: 1000px;
+}
+
+#Whan_to_say {
+    padding: 0 0 5px 5px;
+    margin: 50px 0 0 0;
+    font-size: 10pt;
+    resize: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 70px;
+    width: 550px;
+}
+.wanttoPostanEvent {
+    margin: 10px 0 0 0;
+}
+
+.testareaAndSubmit input[type="submit"], .testareaAndSubmit {
+    margin: 10px 431px 0 14px;
+    background-color: #d3d3d2;
+    border-radius: 5px;
+}
+
+.wanttosay input[type="submit"]{
+    margin: 0 0 0 6px;
+    color: #000000;
+    border: 0;
+    border-radius: 4px;
+    font-size: 11pt;
+}
+
+.wanttosay input[type="submit"]:hover{
+    color: #ffffff;
+}
+
+/* User Page, where they will able to navigate from ABOUT page, into events, photos or settings.*/
+/* ---------------------------------------------------------------------------------------------*/
+
+.usrContHR hr {
+    margin: 0;
+    color: #50a867;
+    border: 3px solid #50a867;
+    border-radius: 3px;
+}
+
+.Postevents {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: justify;
+    height: 500px;
+    width: 500px;
+}
+/*css fro the name in the vavigation*/
+
+p.NameInTheNav {margin: 5px 0 65px 20px;font-size: 40pt;color: #fff;}
+
+/* That css part is for  user/events/photos/*/
+/*------------------------------------------*/
+#rightTools {margin: 90px 220px 0 10px;padding: 0;}
+#rightTools li {text-decoration: none;}
+
+#rightTools hr {
+    border: 1px solid #50a867;
+}
+
+#rightTools hr.innerhr {
+    border-color: #444442;
+}
+
+#rightTools p {
+    /*background: -moz-linear-gradient(top,#abd8b0, #fff);
+    background: -webkit-linear-gradient(top,#abd8b0, #fff);*/
+}
+
+#Option-1 {
+    background-color: red;
+    height: 450px;
+}
+
+#Option-2 h6 {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#Option-1, #Option-2, #Option-3, #Option-4, #Option-5, #Option-7, #Option-8, #Option-9, #Option-20, #Option-10, #Option-11, #Option-12, #Option-15, #Option-16, #Option-17, #Option-19, #Option-22{
+    margin: 0 15px 0 15px;
+}
+
+div.sections_btn_holder > p  {
+    border: none;
+    padding: 10px 0 10px 40px;
+    background-color: none;
+    cursor: pointer;
+    font-size: 14pt;
+}
+
+.options ul > li {
+    list-style: none outside none;
+}
+/*----Settings Page-------*/
+/*------------------------*/
+div.accountSettingsPic img{height: 260px;width: 350px;margin: 0 0 -280px 380px;}
+div.accountSettingsInfo {margin: 0 0 10px 0;padding: 1px 0 0 0;}
+div.accountSettingsInfo p {margin: 0 380px 0 0;padding: 10px 5px;text-align: center;}
+p.MemberOn {margin: -20px 0 0 0;float: right;}
+span.accountNamesDisplay {text-align: right;width: 140px;padding: 0 0 5px 0;margin: 3px 0 0 0;float: left; font-size: 11pt;}
+.newInfoError {margin: 0 345px 0 140px;text-align: center;color: #f00;font-size: 10pt;}
+div.prosileInputSettings {margin: -15px 0 5px 160px;}
+div.prosileInputSettings input[type="text"], div.prosileInputSettings input[type="password"], .passwordChange input[type="password"]{border-top: none;border-left: none;border-right: none;border-radius: none;padding: 0 0 0 6px;outline: none;}
+
+div.prosileInputSettings input[type="submit"]{
+    margin: 20px 0 0 120px;
+    outline: none;
+}
+div#photoFileChnage {
+    margin: -311px 0 100px 0;
+}
+div.PhotoError {
+    margin: 5px 0 0 400px;
+    color: #f00;
+    font-size: 11pt;
+}
+
+div.prosileInputSettingsFILE input[type="file"]{
+    margin: -30px 0 -30px 380px;
+    background-color: #3d3d3c;
+    padding: 235px 104px 8px 10px;
+    opacity: 0;
+    -moz-transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+}
+div.prosileInputSettingsFILE input[type="file"]:hover{
+    opacity: .8;
+    -moz-transition: opacity .1s linear;
+}
+
+.passwordChange p{
+    text-align: center;
+}
+.passwordChange input[type="password"]{margin: 10px 0 10px 300px;}
+
+.passwordChange input[type="submit"]{
+    margin: 0 0 0 350px;
+}
+
+.PasswordChnageFromOldToNew {color: #f00;text-align: center;font-size: 10pt;}
+
+.disableAccount a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #fff;
+
+}
+.disableAccount {
+    border: 2px solid #e1e1e1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 0 10px 30px;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #dc5644;
+}
+
+.deleteAccount a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #fff;
+}
+
+.deleteAccount {
+    border: 2px solid #e1e1e1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid #e1e1e1;
+    padding: 10px 0 10px 30px;
+    background-color: #dc5644;
+
+}
+
+/*   CSS FOR USER PAGE, WHERE THEY WILL SEE THIER EVENTSAND POSTS-*/
+/*----------------------------------------------------------------*/
+
+#UserPage {
+    margin: 90px 0 20px 0;
+}
+
+#UserPage h6 {
+    margin: auto;
+    padding: 0 0 0 300px;
+}
+
+table.calendar {
+    background-color: #fdfddd;
+    margin: -18px 0 0 0px;
+    border-collapse: collapse;
+}
+table.calendar th {
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+
+table.calendar td {
+    padding: 3px;
+    height: 0;
+    width: 650px;
+}
+
+/*  Make an event CSS */
+/*--------------------*/
+.UsersEvent p {text-align: center;font-size: 13pt;padding: 20px 0 0 0;background: -webkit-radial-gradient(circle, #41c5ad, #fff); background: -moz-radial-gradient(circle, #41c5ad, #fff); background: -ms-radial-gradient(circle, #41c5ad, #fff);}
+.UsersEvent a {text-decoration: none;}
+.UsersEvent img {width: 140px;height: 140px;}
+
+.4buttonsInside {
+    margin: 0 2px 0 2px;
+}
+
+/*   MILBR RIGHTS */
+/*----------------*/
+.milberRights p {color: #808080;font-size: 10pt;margin: 0 0 0 900px;}
+
+/*css for log in page if they were log on */
+/*----------------------------------------*/
+
+.loginHolds {
+    height: 200px;
+    width: 350px;
+    background-color: #8ed96a;
+    margin: 100px auto;
+    box-shadow: -1px 1px 19px 0px rgba(50, 50, 50, 0.63);
+    -webkit-box-shadow: -1px 1px 19px 0px rgba(50, 50, 50, 0.63);
+    -moz-box-shadow: -1px 1px 19px 0px rgba(50, 50, 50, 0.63);
+}
+
+.loginHolds blockquote {
+    padding: 10px;
+}
+
+.title img {
+    margin: 0 0 -80px 0;
+}
+
+.title p {
+    margin: -80px 0 300px 0;
+    font-size: 30pt;
+    padding: 0;
+}
+div.signOutTitle {
+    background-color: #79c254;
+    padding: 20px 10px;
+}
+div.signOutButton {
+    margin: 43px 0 0 0;
+    padding: 20px 10px;
+    background-color: #79c254;
+}
+
+

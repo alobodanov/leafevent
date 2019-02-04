@@ -1,0 +1,9 @@
+//the the "compiler" gets to this line, it checks what the status is equals to.
+//if it equals to on, the it will call ChoiseOFCssForNightTime.php file.
+<?php
+	if($status == 'on'){
+		require "ChoiseOFCssForNightTime.php";
+	} else{
+		require "ChoiseOFCssForDifferentBrowsers.php"; 
+	}
+?>

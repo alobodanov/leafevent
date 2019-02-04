@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule userFriendInfo-u-(.*)\.htm$ userFriendInfo.php?u=$1	
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule userFriendInfo-u-(.*)-v-(.*)\.htm$ userFriendInfo.php?u=$1&v=$2					
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule viewEvent-event-(.*)\.htm$ viewEvent.php?event=$1					
+				
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule home-stats-(.*)\.htm$ home.php?stats=$1					
+
