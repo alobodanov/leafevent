@@ -5,3 +5,6 @@
 ## Background
 
 Leafevent is an event web application that allows users to find relevant events based on thier current location or selected location.
+
+## Copyright
+Leafevent © 2015. All Rights Reserved.
